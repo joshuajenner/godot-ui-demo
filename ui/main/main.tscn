@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://cgjspxrumth0b"]
+
+[ext_resource type="Theme" uid="uid://fs7500feqhlf" path="res://ui/default_theme.tres" id="1_qf1my"]
+[ext_resource type="Texture2D" uid="uid://tt4nqwlgd7aa" path="res://assets/textures/kbm/keyboard_0_outline.svg" id="2_os5ln"]
+
+[node name="Main" type="MarginContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_qf1my")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("2_os5ln")
+expand_mode = 3
+stretch_mode = 3
