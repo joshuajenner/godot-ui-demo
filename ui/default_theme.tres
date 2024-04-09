@@ -1,3 +1,17 @@
-[gd_resource type="Theme" format=3 uid="uid://fs7500feqhlf"]
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://fs7500feqhlf"]
+
+[ext_resource type="FontFile" uid="uid://cq18onnjkdt8s" path="res://assets/fonts/Karla-Regular.ttf" id="1_1e6tu"]
 
 [resource]
+Button/font_sizes/font_size = 32
+Button/fonts/font = ExtResource("1_1e6tu")
+FullScreenMargin/base_type = &"MarginContainer"
+FullScreenMargin/constants/margin_bottom = 20
+FullScreenMargin/constants/margin_left = 20
+FullScreenMargin/constants/margin_right = 20
+FullScreenMargin/constants/margin_top = 20
+MainScreenMargin/base_type = &"MarginContainer"
+MainScreenMargin/constants/margin_bottom = 100
+MainScreenMargin/constants/margin_left = 100
+MainScreenMargin/constants/margin_right = 100
+MainScreenMargin/constants/margin_top = 100
